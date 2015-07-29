@@ -1,0 +1,41 @@
+
+demog = 'White',
+birth = '1976',
+gend = 'CIS Female',
+intrst = 'Video Games',
+oreint = 'Straight',
+caer = 'Developer/IT'
+
+
+
+# sql = ("""INSERT INTO DataDetail (Demo_ID, BirthYear_ID, Gender_ID, Interests_ID, Orientation_ID, Career_ID) \
+#     VALUES ( (SELECT ID FROM Demographics WHERE DemoGraphic = %s), \
+#     (SELECT ID FROM BirthYear WHERE Birthyear = %s), \
+#     (SELECT ID FROM Gender WHERE Gender = %s), \
+#     (SELECT ID FROM Interests WHERE Interests = %s), \
+#     (SELECT ID FROM Orientation WHERE Orientation = %s), \
+#     (SELECT ID FROM Career WHERE CareerType = %s) )""", (demog, birth, gend, intrst, oreint, caer))
+# args = (demog, birth, gend, intrst, oreint, caer)
+
+sql = ("""INSERT INTO DataDetail (Demo_ID, BirthYear_ID, Gender_ID, Interests_ID, Orientation_ID, Career_ID)
+VALUES ('2', '2', '2', '2', '2', '2') """)
+print sql
+# test2 = \
+cursor.execute(sql)
+# print test2
+#
+# sql2 = """INSERT INTO DataDetail (Demo_ID, BirthYear_ID, Gender_ID, Interests_ID, Orientation_ID, Career_ID) VALUES ( '1', '1', '1', '1', '1', '1')"""
+# test = cursor.execute("""INSERT INTO DataDetail (Demo_ID, BirthYear_ID, Gender_ID, Interests_ID, Orientation_ID, Career_ID) VALUES ( '1', '1', '1', '1', '1', '1')""")
+
+# test = cursor.execute("""SELECT * FROM DataDetail""")
+# print test
+
+# cursor.execute (
+#     """INSERT INTO DataDetail (Demo_ID, BirthYear_ID, Gender_ID, Interests_ID, Orientation_ID, Career_ID) \
+#     VALUES ( (SELECT ID FROM Demographics WHERE DemoGraphic = %s), \
+#     (SELECT ID FROM BirthYear WHERE Birthyear = %s), \
+#     (SELECT ID FROM Gender WHERE Gender = %s), \
+#     (SELECT ID FROM Interests WHERE Interests = %s), \
+#     (SELECT ID FROM Orientation WHERE Orientation = %s), \
+#     (SELECT ID FROM Career WHERE CareerType = %s) )""", (demog, birth, gend, intrst, oreint, caer)
+# )

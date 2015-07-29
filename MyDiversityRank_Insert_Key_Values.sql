@@ -28,7 +28,7 @@ VALUES ('Geekdom'), ('Tabletop Gaming'), ('Nerd Things'), ('Square Dancing'),
 	('Meetups'), ('Work/Job'), ('Other');
 
 INSERT INTO Orientation (Orientation)
-VALUES ('Gay/Lesbian'), ('Straight'), ('Poly'), ('Other');
+VALUES ('Gay'), ('Lesbian'), ('Straight'), ('Bi'), ('Other');
 
 INSERT INTO Career (CareerType)
 VALUES ('Developer/IT'), ('STEM Field'), ('Customer Service'), ('Data Services'), 
