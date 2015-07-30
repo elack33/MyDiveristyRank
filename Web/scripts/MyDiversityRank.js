@@ -115,7 +115,7 @@ $(document).ready(function() {
                 }
             },
             series: [{
-                name: "MDR Overall",
+                name: "MDR Overall -  these numbers are totally made up and mean nothing.",
                 colorByPoint: true,
                 data: [{
                     name: "Geeks",
@@ -176,24 +176,24 @@ var chart2 = $(function () {
                 colorByPoint: true,
                 data: [{
                     name: "Tabletop Gaming",
-                    y: 49
+                    y: 47.06
                 }, {
                     name: "Square Dancing",
-                    y: 24.0,
+                    y: 23.53,
                     sliced: true,
                     selected: true
                 }, {
                     name: "Meetups",
-                    y: 14.0
+                    y: 11.76
                 }, {
                     name: "Other",
-                    y: 5.0
+                    y: 5.88
                 }, {
                     name: "School/Classes",
-                    y: 5.0
+                    y: 5.88
                 }, {
                     name: "Hobbys/Crafts",
-                    y: 3
+                    y: 5.88
                 }, {
                     name: "Geekdom",
                     y: 0
